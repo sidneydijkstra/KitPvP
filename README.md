@@ -80,9 +80,9 @@ Leave the last two lines blank and create the sign, now you should see the sign 
 
 ## Documentation
 All the code in this project is documented using JavaDocs. To generate the documentation create a new folder called *"./docs"* and run this command:
-
+```
   javadoc -d docs @jdoc.lst
-
+```
 
 After this command you will find an index.html file inside the *"./docs"* folder.
 ## Built With
