@@ -69,19 +69,17 @@ To create a sing like this add this text to the first line:
 
 ```
 [KITPVP]
-
 ```
 Then you can choose between *join/kit* on the second line:
 ```
 join
-
 ```
 Leave the last two lines blank and create the sign, now you should see the sign turn read and this means you did it correct. By clicking the sing its runs the used command on the player that clicked it.
 
 ## Documentation
 All the code in this project is documented using JavaDocs. To generate the documentation create a new folder called *"./docs"* and run this command:
 ```
-  javadoc -d docs @jdoc.lst
+javadoc -d docs @jdoc.lst
 ```
 
 After this command you will find an index.html file inside the *"./docs"* folder.
