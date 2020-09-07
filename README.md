@@ -21,41 +21,41 @@ The plugin contains a couple commands that have to be setup before you can use i
 
 The *"setlobbyspawn"* and *"setgamespawn"* commands are used to add new lobby/game spawn location to the database, it takes the location and direction of the player that used it.
 
-'''
+```
 /setlobbyspawn
-'''
+```
 
 ##### Remove Spawn Locations
 
 The *"removelobbyspawn"* and *"removegamespawn"* commands are used to remove lobby/game spawn location from the database, it takes table id of a location.
 
-'''
+```
 /removelobbyspawn 12
-'''
+```
 
 ##### List Spawn Locations
 
 The *"listlobbyspawn"* and *"listgamespawn"* commands are used display a list of all the spawn locations with there id in the chat.
 
-'''
+```
 /listlobbyspawn
-'''
+```
 
 ##### Create a Kit
 
 The *"createkit"* command is used to create a new kit, it takes all the item from the player that used the command and saves it in the config file. As parameters it need a name for the kit, a material to display the kit and the display slot with a min/max of (0, 8).
 
-'''
+```
 /createkit mykit diamond_axe 4
-'''
+```
 
 ##### Get a Kit
 
 The *"getkit"* command is used to give the player that used it the selected kit, it takes the name of the kit.
 
-'''
+```
 /getkit mykit
-'''
+```
 
 ### Sing Usage
 
@@ -67,15 +67,15 @@ The join sign is used for joining the lobby and the game, it checks if a player 
 
 To create a sing like this add this text to the first line:
 
-'''
+```
 [KITPVP]
 
-'''
+```
 Then you can choose between *join/kit* on the second line:
-'''
+```
 join
 
-'''
+```
 Leave the last two lines blank and create the sign, now you should see the sign turn read and this means you did it correct. By clicking the sing its runs the used command on the player that clicked it.
 
 ## Documentation
