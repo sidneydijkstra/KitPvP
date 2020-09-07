@@ -77,7 +77,7 @@ join
 Leave the last two lines blank and create the sign, now you should see the sign turn read and this means you did it correct. By clicking the sing its runs the used command on the player that clicked it.
 
 ## Documentation
-All the code in this project is documented using JavaDocs. To generate the documentation create a new folder called *"./docs"* and run this command:
+All the code in this project is documented using JavaDocs. To generate the documentation create a new folder called *"./docs"* and run this command in cmd:
 ```
 javadoc -d docs @jdoc.lst
 ```
