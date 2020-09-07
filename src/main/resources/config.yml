@@ -1,0 +1,67 @@
+kits:
+  Alpha:
+    icon: diamond_axe
+    description: This is the Alpha kit!
+    slot: 5
+    items:
+      '0':
+        type: diamond_sword
+        amount: 1
+      '1':
+        type: bow
+        amount: 1
+      '7':
+        type: arrow
+        amount: 64
+      '8':
+        type: baked_potato
+        amount: 32
+    armor:
+      helmet:
+        type: diamond_helmet
+        amount: 1
+      chestplate:
+        type: diamond_chestplate
+        amount: 1
+      leggings:
+        type: diamond_leggings
+        amount: 1
+      boots:
+        type: diamond_boots
+        amount: 1
+  Beta:
+    icon: iron_axe
+    description: 'This is the Beta kit!'
+    slot: 4
+    items:
+      '0':
+        type: iron_sword
+        amount: 1
+      '1':
+        type: bow
+        amount: 1
+        lore:
+        - '[]'
+      '7':
+        type: arrow
+        amount: 64
+        lore:
+        - '[]'
+      '8':
+        type: baked_potato
+        amount: 32
+        lore:
+        - '[]'
+    armor:
+      helmet:
+        type: iron_helmet
+        amount: 1
+      chestplate:
+        type: iron_chestplate
+        amount: 1
+      leggings:
+        type: iron_leggings
+        amount: 1
+      boots:
+        type: iron_boots
+        amount: 1
