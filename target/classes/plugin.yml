@@ -1,0 +1,49 @@
+name: KitPvP
+main: plugin.kitpvp.KitPvP
+version: 1.0
+api-version: 1.13
+author: TheWiseStoner
+commands:
+   createkit:
+      description: Create a new kit from your inventory
+      usage: /createkit [name] [icon_item_name] [slot]
+      permission: KitPvP.createkit
+      permission-message: You don't have permission
+   getkit:
+      description: Get your kitpvp kit
+      usage: /getkit [name]
+      permission: KitPvP.getkit
+      permission-message: You don't have permission
+
+   setlobbyspawn:
+      description: Add new lobby spawn point
+      usage: /setlobbyspawn
+      permission: KitPvP.setlobbyspawn
+      permission-message: You don't have permission
+   setgamespawn:
+      description: Add new game spawn point
+      usage: /setgamespawn
+      permission: KitPvP.setgamespawn
+      permission-message: You don't have permission
+      
+   removelobbyspawn:
+      description: Remove lobby spawn point
+      usage: /removelobbyspawn [id]
+      permission: KitPvP.removelobbyspawn
+      permission-message: You don't have permission
+   removegamespawn:
+      description: Remove game spawn point
+      usage: /removegamespawn [id]
+      permission: KitPvP.removegamespawn
+      permission-message: You don't have permission
+      
+   listlobbyspawn:
+      description: List all the lobby spawn points
+      usage: /listlobbyspawn
+      permission: KitPvP.listlobbyspawn
+      permission-message: You don't have permission
+   listgamespawn:
+      description: List all the game spawn points
+      usage: /listgamespawn
+      permission: KitPvP.listgamespawn
+      permission-message: You don't have permission
